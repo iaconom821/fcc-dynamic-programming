@@ -1,3 +1,7 @@
+// brute force
+
+// time: O(n^m * m)
+
 function countConstruct(target, arr, memo = {}) {
     if(target in memo) return memo[target]
     if(target === "") return 1;
